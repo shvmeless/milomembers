@@ -1,0 +1,40 @@
+// IMPORTS
+@import '../../../styles/extends';
+@import '../../../styles/vars';
+
+// COMPONENT
+.Select {
+  @extend %secondary;
+  padding: 0 1rem;
+  height: $size;
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  line-height: 1.25em;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+// FOCUS
+.Select:focus {
+  @extend %secondary-bright;
+}
+
+// ERROR
+.Select.error {
+  border: solid $border-width $error-border;
+}
+
+// ERROR (FOCUS)
+.Select.error:focus {
+  border: solid $border-width $error-border-bright;
+}
+
+// ERROR
+.Select.disabled {
+  opacity: 40%;
+}

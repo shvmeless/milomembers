@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "standard-with-typescript"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "globals": {},
+  "rules": {
+    "@typescript-eslint/comma-dangle": ["error","always-multiline"],
+    "comma-dangle": "off",
+    "@typescript-eslint/explicit-function-return-type": ["warn",{"allowDirectConstAssertionInArrowFunctions": false,"allowTypedFunctionExpressions": true,"allowHigherOrderFunctions": false,"allowExpressions": true,"allowConciseArrowFunctionExpressionsStartingWithVoid": false}],
+    "react/jsx-indent": ["error", 2, {"checkAttributes": true,"indentLogicalExpressions": true}],
+    "jsx-quotes": ["error", "prefer-single"],
+    "react/react-in-jsx-scope": "off",
+    "arrow-parens": ["warn","always"],
+    "padded-blocks": "off"
+  }
+}

@@ -1,0 +1,10 @@
+// IMPORTS
+@import '../../../styles/extends';
+@import '../../../styles/vars';
+
+// COMPONENT
+.MemberCreatorPage {
+  @extend %flex-column-nowrap;
+  @extend %flex-start;
+  gap: 1rem;
+}

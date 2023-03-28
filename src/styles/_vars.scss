@@ -1,0 +1,62 @@
+// GENERAL
+$body-background: rgb(0, 5, 10);
+
+// PRIMARY
+$primary: rgb(0, 5, 10);
+$primary-bright: rgb(10, 15, 20);
+$primary-border: rgb(90, 95, 100);
+$primary-border-bright: rgb(140, 145, 150);
+$primary-text: rgb(120, 125, 130);
+$primary-text-bright: rgb(150, 155, 160);
+
+// SECONDARY
+$secondary: rgb(10, 15, 20);
+$secondary-bright: rgb(20, 25, 30);
+$secondary-border: rgb(90, 95, 100);
+$secondary-border-bright: rgb(140, 145, 150);
+$secondary-text: rgb(120, 125, 130);
+$secondary-text-bright: rgb(150, 155, 160);
+
+// TERTIARY
+$tertiary-template: rgb(175, 195, 225);
+$tertiary: rgba($tertiary-template, 15%);
+$tertiary-bright: rgba($tertiary-template, 25%);
+$tertiary-border: lighten($tertiary-template, 5%);
+$tertiary-border-bright: lighten($tertiary-template, 15%);
+$tertiary-text: lighten($tertiary-template, 5%);
+$tertiary-text-bright: lighten($tertiary-template, 15%);
+
+// SUCCESS
+$success-template: rgb(155, 165, 90);
+$success: rgba($success-template, 15%);
+$success-bright: rgba($success-template, 25%);
+$success-border: lighten($success-template, 5%);
+$success-border-bright: lighten($success-template, 15%);
+$success-text: lighten($success-template, 5%);
+$success-text-bright: lighten($success-template, 15%);
+
+// WARNING
+$warning-template: rgb(240, 155, 85);
+$warning: rgba($warning-template, 15%);
+$warning-bright: rgba($warning-template, 25%);
+$warning-border: lighten($warning-template, 5%);
+$warning-border-bright: lighten($warning-template, 15%);
+$warning-text: lighten($warning-template, 5%);
+$warning-text-bright: lighten($warning-template, 15%);
+
+// ERROR
+$error-template: rgb(225, 75, 75);
+$error: rgba($error-template, 15%);
+$error-bright: rgba($error-template, 25%);
+$error-border: lighten($error-template, 5%);
+$error-border-bright: lighten($error-template, 15%);
+$error-text: lighten($error-template, 5%);
+$error-text-bright: lighten($error-template, 15%);
+
+// BORDER
+$border-radius: 0.6rem;
+$stroke-width: 1.3px;
+$border-width: 1px;
+
+// SIZE
+$size: 3.5rem;

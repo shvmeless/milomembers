@@ -1,0 +1,28 @@
+@import './extends';
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: none;
+  scrollbar-color: $secondary transparent;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  // background: $primary;
+  // border-left: solid $border-width $primary-border;
+}
+
+*::-webkit-scrollbar-thumb {
+  // border-bottom: solid $border-width $primary-border;
+  // border-left: solid $border-width $primary-border;
+  // border-top: solid $border-width $primary-border;
+  background-color: $secondary-bright;
+  border-radius: 0px;
+  // border: 1px solid $secondary-border;
+}

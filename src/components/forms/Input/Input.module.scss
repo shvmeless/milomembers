@@ -1,0 +1,30 @@
+// IMPORTS
+@import '../../../styles/extends';
+@import '../../../styles/vars';
+
+// COMPONENT
+.Input {
+  @extend %secondary;
+  padding: 0 1rem;
+  height: $size;
+}
+
+// FOCUS
+.Input:focus {
+  @extend %secondary-bright;
+}
+
+// ERROR
+.Input.error {
+  border: solid $border-width $error-border;
+}
+
+// ERROR (FOCUS)
+.Input.error:focus {
+  border: solid $border-width $error-border-bright;
+}
+
+// ERROR
+.Input.disabled {
+  opacity: 40%;
+}

@@ -1,0 +1,28 @@
+// IMPORTS
+@import '../../../styles/extends';
+@import '../../../styles/vars';
+
+// COMPONENT
+.Sidebar {
+  @extend %flex-column-nowrap;
+  @extend %flex-start;
+  padding: 2rem;
+  gap: 1rem;
+
+  // CONTENT
+  > * {
+    width: 100%;
+  }
+
+  // TITLE
+  .title {
+    font-weight: bold;
+    line-height: 1.25em;
+    font-size: 1.25em;
+    height: 1.25em;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}

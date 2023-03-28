@@ -1,0 +1,22 @@
+// IMPORTS
+@import '../../../styles/extends';
+@import '../../../styles/vars';
+
+// COMPONENT
+.Label {
+  @extend %flex-column-nowrap;
+  @extend %flex-start;
+  gap: 1rem;
+
+  // TEXT
+  .text {
+    line-height: 1.3rem;
+    font-size: 1.3rem;
+    height: 1.3rem;
+  }
+
+  // ALL
+  > * {
+    width: 100%;
+  }
+}

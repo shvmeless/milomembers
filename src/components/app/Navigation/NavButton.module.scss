@@ -1,0 +1,25 @@
+// IMPORTS
+@import '../../../styles/extends';
+@import '../../../styles/vars';
+
+// COMPONENT
+.NavButton {
+  display: grid;
+  place-content: center;
+  place-items: center;
+
+  @extend %secondary;
+  cursor: pointer;
+
+  min-height: $size;
+  max-height: $size;
+  height: $size;
+  min-width: $size;
+  max-width: $size;
+  width: $size;
+}
+
+// HOVER
+.NavButton:hover {
+  @extend %secondary-bright;
+}

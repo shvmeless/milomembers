@@ -1,0 +1,32 @@
+// IMPORTS
+@use "./styles/reset";
+@use "./styles/scroll";
+@import "./styles/extends";
+@import "./styles/vars";
+
+// FONTS
+@font-face {
+  font-family: "Lexend";
+  src: url("/fonts/Lexend.ttf");
+}
+
+// HTML
+html {
+  height: 100%;
+  font-size: 10px;
+}
+
+// BODY
+body {
+  display: block;
+  height: 100%;
+  width: 100%;
+
+  background-color: $body-background;
+  color: $primary-text;
+
+  font-family: "Lexend", sans-serif;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}

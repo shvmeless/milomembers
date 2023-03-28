@@ -1,0 +1,30 @@
+# LOGS
+lerna-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+npm-debug.log*
+*.log
+logs
+
+# NODE
+package-lock.json
+node_modules
+
+# LOCAL
+temporary
+tmp
+dist-ssr
+*.local
+dist
+
+# VSCODE
+!.vscode/extensions.json
+.DS_Store
+.vscode/*
+.idea
+*.njsproj
+*.ntvs*
+*.suo
+*.sln
+*.sw?

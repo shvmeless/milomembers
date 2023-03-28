@@ -1,0 +1,49 @@
+// ALL
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+// MEDIA
+img, picture, video, canvas, svg {
+  max-width: 100%;
+  display: block;
+} 
+
+// TEXT
+p, a, h1, h2, h3, h4, h5, h6 {
+  outline: none;
+
+  text-decoration: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+} 
+
+// FORMS
+input, button, textarea, select {
+  background: none;
+  outline: none;
+  border: none;
+
+  text-decoration: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+} 
+
+// PLACEHOLDER
+input::placeholder, textarea::placeholder {
+  color: inherit;
+  opacity: 0.6;
+}
+
+// LIST
+ul, ol {
+  list-style: none;
+}

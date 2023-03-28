@@ -1,0 +1,53 @@
+// IMPORTS
+@import '../../../styles/extends';
+@import '../../../styles/vars';
+
+// COMPONENT
+.MembersRow {
+  border-bottom: solid $border-width $primary-border;
+  background-color: $primary;
+  color: $primary-text;
+  text-align: left;
+
+  .cell {
+    padding: 1rem 3rem 1rem 1rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .copy {
+    cursor: copy;
+  }
+}
+
+// (HOVER)
+.MembersRow:hover {
+  background-color: $primary-bright;
+  color: $primary-text-bright;
+}
+
+// CREATED
+.MembersRow.created {
+  background-color: $success;
+  color: $success-text;
+}
+
+// CREATED (HOVER)
+.MembersRow.created:hover {
+  background-color: $success-bright;
+  color: $success-text-bright;
+}
+
+
+// SELECTED
+.MembersRow.selected {
+  background-color: $tertiary;
+  color: $tertiary-text;
+}
+
+// SELECTED (HOVER)
+.MembersRow.selected:hover {
+  background-color: $tertiary-bright;
+  color: $tertiary-text-bright;
+}

@@ -1,0 +1,27 @@
+// IMPORTS
+@import '../../../styles/extends';
+@import '../../../styles/vars';
+
+// COMPONENT
+.Submit {
+  @extend %flex-row-nowrap;
+  @extend %flex-center;
+  @extend %tertiary;
+
+  cursor: pointer;
+
+  padding: 0 1rem;
+  min-height: $size;
+  max-height: $size;
+  height: $size;
+}
+
+// FOCUS
+.Submit:focus {
+  @extend %tertiary-bright;
+}
+
+// HOVER
+.Submit:hover {
+  @extend %tertiary-bright;
+}

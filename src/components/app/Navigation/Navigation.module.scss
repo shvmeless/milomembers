@@ -1,0 +1,11 @@
+// IMPORTS
+@import '../../../styles/extends';
+@import '../../../styles/vars';
+
+// COMPONENT
+.Navigation {
+  @extend %flex-column-nowrap;
+  @extend %flex-start;
+  padding: 1rem;
+  gap: 1rem;
+}

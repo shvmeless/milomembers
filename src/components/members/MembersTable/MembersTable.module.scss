@@ -1,0 +1,27 @@
+// IMPORTS
+@import '../../../styles/extends';
+@import '../../../styles/vars';
+
+// COMPONENT
+.MembersTable {
+  border-collapse: collapse;
+
+  // HEADER
+  .header {
+    border-bottom: solid $border-width $primary-border;
+    text-align: left;
+
+    .headerCell {
+      padding: 1rem;
+      font-weight: bold;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      cursor: copy;
+
+      &:hover {
+        color: $primary-text-bright;
+      }
+    }
+  }
+}

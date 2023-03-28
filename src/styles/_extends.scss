@@ -1,0 +1,142 @@
+// IMPORTS
+@import './vars';
+
+// FLEX
+
+%flex-column-wrap {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+%flex-column-nowrap {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+%flex-row-wrap {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+%flex-row-nowrap {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+// ALIGNMENT
+
+%flex-start {
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+%flex-center {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+%flex-end {
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+// STYLES
+
+%primary {
+  border: solid $border-width $primary-border;
+  border-radius: $border-radius;
+  background-color: $primary;
+  color: $primary-text;
+  overflow: hidden;
+}
+
+%primary-bright {
+  border: solid $border-width $primary-border-bright;
+  border-radius: $border-radius;
+  background-color: $primary-bright;
+  color: $primary-text-bright;
+  overflow: hidden;
+}
+
+%secondary {
+  border: solid $border-width $secondary-border;
+  border-radius: $border-radius;
+  background-color: $secondary;
+  color: $secondary-text;
+  overflow: hidden;
+}
+
+%secondary-bright {
+  border: solid $border-width $secondary-border-bright;
+  border-radius: $border-radius;
+  background-color: $secondary-bright;
+  color: $secondary-text-bright;
+  overflow: hidden;
+}
+
+%tertiary {
+  border: solid $border-width $tertiary-border;
+  border-radius: $border-radius;
+  background-color: $tertiary;
+  color: $tertiary-text;
+  overflow: hidden;
+}
+
+%tertiary-bright {
+  border: solid $border-width $tertiary-border-bright;
+  border-radius: $border-radius;
+  background-color: $tertiary-bright;
+  color: $tertiary-text-bright;
+  overflow: hidden;
+}
+
+%success {
+  border: solid $border-width $success-border;
+  border-radius: $border-radius;
+  background-color: $success;
+  color: $success-text;
+  overflow: hidden;
+}
+
+%success-bright {
+  border: solid $border-width $success-border-bright;
+  border-radius: $border-radius;
+  background-color: $success-bright;
+  color: $success-text-bright;
+  overflow: hidden;
+}
+
+%warning {
+  border: solid $border-width $warning-border;
+  border-radius: $border-radius;
+  background-color: $warning;
+  color: $warning-text;
+  overflow: hidden;
+}
+
+%warning-bright {
+  border: solid $border-width $warning-border-bright;
+  border-radius: $border-radius;
+  background-color: $warning-bright;
+  color: $warning-text-bright;
+  overflow: hidden;
+}
+
+%error {
+  border: solid $border-width $error-border;
+  border-radius: $border-radius;
+  background-color: $error;
+  color: $error-text;
+  overflow: hidden;
+}
+
+%error-bright {
+  border: solid $border-width $error-border-bright;
+  border-radius: $border-radius;
+  background-color: $error-bright;
+  color: $error-text-bright;
+  overflow: hidden;
+}
